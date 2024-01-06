@@ -11,7 +11,7 @@
   ],
   // 저장시 eslint 스타일 적용
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "editor.tabSize": 2
 }
