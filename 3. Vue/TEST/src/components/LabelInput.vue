@@ -12,8 +12,9 @@
 			@input="event => $emit('update:modelValue', event.target.value)"
 			type="text"
 		/> -->
-		<input v-model="value" type="text" />
+		<!-- <input v-model="value" type="text" /> -->
 	</label>
+	<input v-model="value" v-bind="$attrs" type="text" class="form-control" />
 </template>
 
 <script>
