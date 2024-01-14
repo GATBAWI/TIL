@@ -2,7 +2,7 @@
 	<header>
 		<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="#">김태용</a>
+				<a class="navbar-brand" href="/">김태용</a>
 				<button
 					class="navbar-toggler"
 					type="button"
@@ -17,7 +17,10 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav me-auto">
 						<li class="nav-item">
-							<RouterLink class="nav-link" active-class="active" to="/"
+							<RouterLink
+								class="nav-link"
+								active-class="active"
+								:to="{ name: 'Home', replace: true }"
 								>Home</RouterLink
 							>
 							<!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
@@ -31,6 +34,11 @@
 						<li class="nav-item">
 							<RouterLink class="nav-link" active-calss="active" to="/posts"
 								>게시글</RouterLink
+							>
+						</li>
+						<li class="nav-item">
+							<RouterLink class="nav-link" active-calss="active" to="/nested"
+								>Nested</RouterLink
 							>
 						</li>
 					</ul>

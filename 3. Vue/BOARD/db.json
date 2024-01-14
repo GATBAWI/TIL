@@ -1,0 +1,70 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "제목1",
+      "content": "내용1",
+      "createdAt": "2024-01-01"
+    },
+    {
+      "id": 2,
+      "title": "제목2",
+      "content": "내용2",
+      "createdAt": "2024-01-02"
+    },
+    {
+      "id": 3,
+      "title": "제목3",
+      "content": "내용3",
+      "createdAt": "2024-01-03"
+    },
+    {
+      "id": 4,
+      "title": "제목4",
+      "content": "내용4",
+      "createdAt": "2024-01-04"
+    },
+    {
+      "id": 5,
+      "title": "제목5",
+      "content": "내용5",
+      "createdAt": "2024-01-05"
+    },
+    {
+      "id": 6,
+      "title": "제목6",
+      "content": "내용6",
+      "createdAt": "2024-01-06"
+    },
+    {
+      "id": 7,
+      "title": "제목7",
+      "content": "내용7",
+      "createdAt": "2024-01-07"
+    },
+    {
+      "id": 8,
+      "title": "제목8",
+      "content": "내용8",
+      "createdAt": "2024-01-08"
+    },
+    {
+      "id": 9,
+      "title": "제목9",
+      "content": "내용9",
+      "createdAt": "2024-01-09"
+    },
+    {
+      "id": 10,
+      "title": "제목10",
+      "content": "내용10",
+      "createdAt": "2024-01-10"
+    },
+    {
+      "title": "안녕하세요 TEST",
+      "content": "TEST",
+      "createdAt": 1704815366439,
+      "id": 11
+    }
+  ]
+}
