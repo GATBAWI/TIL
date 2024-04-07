@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"target": "ESNext" /* 어떤 버전으로 컴파일 할 것인지 결정하는 부분! (ES5 설정 시 화살표함수는 표현식으로 변경된다.) */,
+		"module": "ESNext" /* JS 에는 CommonJS, ES module 두가지 방법이 있다. */,
+		"outDir": "dist" /* 컴파일 결과가 나올  폴더 */,
+		"strict": true /* 엄격하게 타입을 검사한다. */,
+		"moduleDetection": "force" /* 타입스크립트가 자동으로 모듈 시스템을 추가하다. */,
+		/* JS 프로젝트를 TS 로 마이그레이션 할 경우에는 strict -> false로 개발하기도 한다. */
+		"skipLibCheck": true /* 라이브러리 체크를 하지 않겠다. */
+	},
+	"include": ["src"] /* SRC 폴더 아래부터 컴파일 해라!*/
+}
