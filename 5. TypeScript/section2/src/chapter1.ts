@@ -8,8 +8,8 @@ let num6: number = -Infinity;
 let num7: number = NaN;
 
 // string
-let str1: string = "Hello, TypeScript";
-let str2: string = "Hello, TypeScript";
+let str1: string = 'Hello, TypeScript';
+let str2: string = 'Hello, TypeScript';
 let str3: string = `Hello, TypeScript`;
 let str4: string = `Hello, TypeScript ${num1}`;
 
@@ -23,4 +23,14 @@ let null1: null = null;
 //undefined
 let unde1: undefined = undefined;
 
-let numA: number = null;
+// let numA: number = null;
+
+// 리터럴 타입
+// 값 자체가 타입이 되는 타입
+let numA: 10 = 10;
+// numA = 12; <- 리터럴 타입 (리터럴 = 값)
+
+let strA: 'Hello' = 'Hello';
+// strA = "B"
+
+// let boolA:true = false

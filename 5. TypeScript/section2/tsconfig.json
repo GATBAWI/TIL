@@ -1,12 +1,12 @@
 {
-  "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "outDir": "dist",
-    "strict": true,
-    "strictNullChecks": false /* 엄격한 null 검사를 꺼서 변수에 null을 넣을 수 있는 상황을 만들어 준다. */,
-    "moduleDetection": "force",
-    "skipLibCheck": true
-  },
-  "include": ["src"]
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"outDir": "dist",
+		"strict": true /* strtict 가 스트릭트 널 체크보다 상위 옵션이다. 스트릭트 옵션이 꺼져 있으면 아래 옵션은 자동으로 꺼진다. */,
+		// "strictNullChecks": false /* 엄격한 null 검사를 꺼서 변수에 null을 넣을 수 있는 상황을 만들어 준다. */,
+		"moduleDetection": "force",
+		"skipLibCheck": true
+	},
+	"include": ["src"]
 }
