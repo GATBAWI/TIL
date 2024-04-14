@@ -7,9 +7,11 @@ let strArr: string[] = ['hello', 'im', 'taeyong'];
 let boolArr: Array<boolean> = [true, false, true];
 
 // 배열에 들어가는 요소들의 타입이 다양할 경우
+// Number와 String이 배열의 요소로 들어간다!
 let multiArr: (number | string)[] = [1, 'hello'];
 
 // 다차원 배열의 타입을 정의하는 방법
+// Number배열이 배열의 요소로 들어간다!
 let doubleArr: number[][] = [
 	[1, 2, 3],
 	[4, 5],

@@ -28,8 +28,9 @@ function func2(): void {
 
 function func3(): never {
 	// 함수가 종료되고 반환 값이 없을때에는 void를 사용하는 것이 맞지만,
-	// 반환을 할 수 없는 함수라면 voide가 아닌 never를 사용해야 한다.
+	// 반환을 할 수 없는 함수라면 void가 아닌 never를 사용해야 한다.
 	// 반환값 자체가 존재 할 수 없는 상황이라면 never
+	// 무한루프이기때문에 반환값이 없을수밖에 없다.
 	while (true) {}
 }
 

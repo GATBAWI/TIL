@@ -9,6 +9,8 @@
 // // 그렇다면 할 때 마다 *.ts를 컴파일하고 node로 실행해야할까?
 // // ts-node를 사용하면 된다. -> npm i -g ts-node
 // // 즉시 실행 방법 : ts-node src/index.ts
+// ts-nodes는 타입스크립트를 실행할 수 있는 런타임 환경을 제공한다.
+// node LTS 버전이 20 이상으로 올라가면서 ts-node를 사용하지 않고, tsx를 사용한다.
 
 const a = 1;
 // Cannot redeclare block-scoped variable 'a' => 똑같은 이름의 변수를 같운 스코프 내에서 두번 선언할 수 없다.

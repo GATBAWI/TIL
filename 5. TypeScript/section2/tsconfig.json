@@ -1,13 +1,13 @@
 {
 	"compilerOptions": {
-		"target": "ESNext",
-		"module": "ESNext",
-		"outDir": "dist",
+		"target": "ESNext", // 어떤 버전으로 컴파일 할 것인지 결정하는 부분!
+		"module": "ESNext", // JS에는 CommonJS, ES module 두가지 방법이 있다.
+		"outDir": "dist", // 컴파일 결과가 나올 폴더
 		"strict": true /* strtict 가 스트릭트 널 체크보다 상위 옵션이다. 스트릭트 옵션이 꺼져 있으면 아래 옵션은 자동으로 꺼진다. */,
 		// "strictNullChecks": false /* 엄격한 null 검사를 꺼서 변수에 null을 넣을 수 있는 상황을 만들어 준다. */,
 		// stiricNullChecks가 false 일 때만, void 타입에 null을 할당할 수 있다.
-		"moduleDetection": "force",
-		"skipLibCheck": true
+		"moduleDetection": "force", // 타입스크립트가 자동으로 모듈 시스템을 추가한다.
+		"skipLibCheck": true // 라이브러리를 체크하지 않겠다!
 	},
-	"include": ["src"]
+	"include": ["src"] // SRC 폴더 아래부터 컴파일 해라!
 }
