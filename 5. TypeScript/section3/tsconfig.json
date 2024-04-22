@@ -1,11 +1,16 @@
 {
-	"compilerOptions": {
-		"target": "ESNext",
-		"module": "ESNext",
-		"outDir": "dist",
-		"strict": true,
-		"moduleDetection": "force",
-		"skipLibCheck": true
-	},
-	"include": ["src"]
+  "compilerOptions": {
+    "target": "ESNext" /* 타입스크립트를 어떤 버전의 JS 버전으로 컴파일 할 것인가! */,
+    "module": "ESNext" /* JS의 import 문법을 어떤 것을 적용할 것인가? -> commonJs, ESNext */,
+    "outDir": "dist" /* 컴파일 후 파일이 저장될 폴더 */,
+    "strict": true /* 엄격한 타입 검사 적용 ( JS에서 TS로 프로젝트를 마이그레이션 할 때 false로 진행하기도 한다. )*/,
+    "moduleDetection": "force",
+    /* 
+		타입스크립트는 기본적으로 모든 파일을 전역 모듈로 취급!
+		다른 *.ts 에서 같은 변수를 선언하게 되면 오류가 발생한다.
+		평소처럼 전역이 아닌 각 파일을 로컬(독립)모듈로 관리하기 위해서 moduleDetection 을 사용한다.
+		*/
+    "skipLibCheck": true
+  },
+  "include": ["src"]
 }
