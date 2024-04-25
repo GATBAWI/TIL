@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "dist",
+    "strict": true,
+    "moduleDetection": "force",
+    "allowJs": true,
+    // 암시적 Any 타입을 허용하지 않을것이냐? -> false -> 난 허용할껀데?
+    "noImplicitAny": false,
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
