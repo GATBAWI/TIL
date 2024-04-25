@@ -92,7 +92,7 @@ type AsyncTask = LoadingTask | FailedTask | SuccessTask;
 
 //  로딩 중 -> 콘솔에 로딩중 출력
 //  실패 -> 실패 : 에러 메시지를 출력
-//  성공 -> 성공 : 데이터를 출력git f
+//  성공 -> 성공 : 데이터를 출력
 function processResult(task: AsyncTask) {
 	switch (task.state) {
 		case 'LOADING':
